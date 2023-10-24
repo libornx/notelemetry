@@ -1,0 +1,8 @@
+#blocklist in Pi-Hole format
+
+0.0.0.0 playstation.com
+0.0.0.0 playstation.net
+0.0.0.0 playstation.org
+0.0.0.0 scea.com
+0.0.0.0 sonyentertainmentnetwork.com
+0.0.0.0 llnwd.net
