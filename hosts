@@ -1,79 +1,8 @@
-#blocklist in Pi-Hole format
+#blocklist in ADB style (compatible with Pi-Hole 5.17+)
 
-0.0.0.0 playstation.com
-0.0.0.0 playstation.net
-0.0.0.0 playstation.org
-0.0.0.0 scea.com
-0.0.0.0 sonyentertainmentnetwork.com
-0.0.0.0 llnwd.net
-0.0.0.0	image.api.playstation.com
-0.0.0.0	telemetry-console.api.playstation.com
-0.0.0.0	urlconfig.api.playstation.com
-0.0.0.0	telemetry-cii.api.playstation.com
-0.0.0.0	smetrics.aem.playstation.com
-0.0.0.0	ic.1fa4fe00.0b3d07.gs2.sonycoment.loris-e.llnwd.net
-0.0.0.0	ic.1fa4fe00.0b8cb1.gst.sonygst.loris-e.llnwd.net
-0.0.0.0	ic.1fa4fe00.023678.gst.sonygst.loris-e.llnwd.net
-0.0.0.0	ic.1fa4fe00.0d68cb.gst.sonygst.loris-e.llnwd.net
-0.0.0.0	fuk01.ps5.update.playstation.net
-0.0.0.0	psn-rsc.prod.dl.playstation.net
-0.0.0.0	gst.prod.dl.playstation.net
-0.0.0.0	sgst.prod.dl.playstation.net
-0.0.0.0	gs2.ww.prod.dl.playstation.net
-0.0.0.0	qgve.dl.playstation.net
-0.0.0.0	appinfo.dl.playstation.net
-0.0.0.0	envelope2.np.dl.playstation.net
-0.0.0.0	ps4-system.sec.np.dl.playstation.net
-0.0.0.0	uef.np.dl.playstation.net
-0.0.0.0	gs-sec.ww.np.dl.playstation.net
-0.0.0.0	compilation-disc-hub.rnps.dl.playstation.net
-0.0.0.0	unsupported-title-hub.rnps.dl.playstation.net
-0.0.0.0	game-hub.rnps.dl.playstation.net
-0.0.0.0	explore-hub.rnps.dl.playstation.net
-0.0.0.0	lfps-bc.rnps.dl.playstation.net
-0.0.0.0	onboard-download.rnps.dl.playstation.net
-0.0.0.0	cosmiccube.rnps.dl.playstation.net
-0.0.0.0	gaming-lounge.rnps.dl.playstation.net
-0.0.0.0	profile.rnps.dl.playstation.net
-0.0.0.0	home.rnps.dl.playstation.net
-0.0.0.0	screen-share.rnps.dl.playstation.net
-0.0.0.0	igc-browse.rnps.dl.playstation.net
-0.0.0.0	rnps-vr-onboarding.rnps.dl.playstation.net
-0.0.0.0	x-wing.rnps.dl.playstation.net
-0.0.0.0	profile-dialog.rnps.dl.playstation.net
-0.0.0.0	millenniumfalcon-dialog.rnps.dl.playstation.net
-0.0.0.0	invitation-dialog.rnps.dl.playstation.net
-0.0.0.0	player-selection-dialog.rnps.dl.playstation.net
-0.0.0.0	g2p-dialog.rnps.dl.playstation.net
-0.0.0.0	search.rnps.dl.playstation.net
-0.0.0.0	agent-popupgui.rnps.dl.playstation.net
-0.0.0.0	ppr-crl.rnps.dl.playstation.net
-0.0.0.0	millenniumfalcon.rnps.dl.playstation.net
-0.0.0.0	elysion.rnps.dl.playstation.net
-0.0.0.0	monte-carlo.rnps.dl.playstation.net
-0.0.0.0	action-cards-host-app.rnps.dl.playstation.net
-0.0.0.0	game-hub-preview-launcher.rnps.dl.playstation.net
-0.0.0.0	control-center.rnps.dl.playstation.net
-0.0.0.0	legal-docs.rnps.dl.playstation.net
-0.0.0.0	uam-fs.rnps.dl.playstation.net
-0.0.0.0	ppr-bgs.rnps.dl.playstation.net
-0.0.0.0	settings.rnps.dl.playstation.net
-0.0.0.0	service-hub-psplus.rnps.dl.playstation.net
-0.0.0.0	bgft.rnps.dl.playstation.net
-0.0.0.0	system-message-client.rnps.dl.playstation.net
-0.0.0.0	broadcast.rnps.dl.playstation.net
-0.0.0.0	wishlist.rnps.dl.playstation.net
-0.0.0.0	universal-checkout.rnps.dl.playstation.net
-0.0.0.0	player-review.rnps.dl.playstation.net
-0.0.0.0	titlestore-preview.rnps.dl.playstation.net
-0.0.0.0	service-hub-psnow.rnps.dl.playstation.net
-0.0.0.0	notification-overlay.rnps.dl.playstation.net
-0.0.0.0	trophy.rnps.dl.playstation.net
-0.0.0.0	library.rnps.dl.playstation.net
-0.0.0.0	crepo.ww.dl.playstation.net
-0.0.0.0	us.np.stun.playstation.net
-0.0.0.0	ps5.np.playstation.net
-0.0.0.0	cfss.crs.playstation.net
-0.0.0.0	ena.net.playstation.net
-0.0.0.0	trophy01.np.community.playstation.net
-0.0.0.0	static-resource.np.community.playstation.net
+||playstation.com^
+||playstation.net^
+||playstation.org^
+||scea.com^
+||sonyentertainmentnetwork.com^
+||llnwd.net^
